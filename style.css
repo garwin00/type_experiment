@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  font-size: 100%;
+}
+
+@font-face{
+  font-family: 'bebas neue';
+  src: url(./font/BebasNeueBold.otf);
+}
+
+:root {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'bebas neue';
+  line-height: .5rem;
+}
+
+h1 {
+  color: #414141;
+  text-transform: uppercase;
+  font-size: 10rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  color: black;
+  text-align: left;
+}
+
+main {
+  background: #525252;
+  width: 70%;
+  margin: 5rem auto;
+  border: 50px solid black;
+  padding: 50px;
+}
+
+hr {
+  border: .5px solid black;
+}
+
+hr+hr {
+  margin-top: 5px;
+}
+
+.red {
+  color: #fd312a;
+}
+
+.right {
+  font-size: 3.45rem;
+  text-align: right;
+}
+
+.right::before {
+  content: "";
+  margin-left: -50px;
+}
+
+.transparent {
+  color:rgba(65, 65, 65, .3);
+}
+
+.bottom {
+  text-align: right;
+  margin-top: -3rem;
+}
